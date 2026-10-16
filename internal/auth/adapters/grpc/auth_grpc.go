@@ -3,15 +3,15 @@ package grpc
 import (
 	"context"
 
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/jwt"
-	"github.com/mmMikhailS/DeepBoard/internal/common/genproto/auth"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/jwt"
+	"github.com/mikhail-kold/authGo/internal/common/genproto/auth"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )
 
 type AuthGrpc struct {
-	auth.UnimplementedAuthServiceServer
 	tokenService jwt.Token
+	auth.UnimplementedAuthServiceServer
 }
 
 func NewAuthGrpc(tokenService jwt.Token) *AuthGrpc {

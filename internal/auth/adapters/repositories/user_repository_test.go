@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/password"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/repositories"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/domain/user"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/password"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/repositories"
+	"github.com/mikhail-kold/authGo/internal/auth/domain/user"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

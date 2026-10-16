@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/jwt"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/jwt"
 	"github.com/stretchr/testify/assert"
 )
 

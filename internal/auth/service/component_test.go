@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/password"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/repositories"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/app/http"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/domain/user"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/password"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/repositories"
+	"github.com/mikhail-kold/authGo/internal/auth/app/http"
+	"github.com/mikhail-kold/authGo/internal/auth/domain/user"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -26,7 +26,7 @@ func TestAuth_Flow(t *testing.T) {
 
 	conn := repositories.NewPostgresSQLConnection()
 	repo := repositories.NewPostgresSQLUserRepository(conn, userFactory)
-	app := NewApplication(ctx)
+	app := NewApplication()
 
 	email := fmt.Sprintf("%s@gmail.com", uuid.New())
 	name := "test"

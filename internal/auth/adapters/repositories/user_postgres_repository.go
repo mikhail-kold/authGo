@@ -15,7 +15,7 @@ import (
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/jmoiron/sqlx"
 	"github.com/joho/godotenv"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/domain/user"
+	"github.com/mikhail-kold/authGo/internal/auth/domain/user"
 	"go.uber.org/multierr"
 )
 

@@ -4,13 +4,14 @@ import (
 	"net/http"
 
 	"github.com/go-chi/render"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/jwt"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/app"
-	appHttp "github.com/mmMikhailS/DeepBoard/internal/auth/app/http"
-	"github.com/mmMikhailS/DeepBoard/internal/common/server/httperr"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/jwt"
+	"github.com/mikhail-kold/authGo/internal/auth/app"
+	appHttp "github.com/mikhail-kold/authGo/internal/auth/app/http"
+	"github.com/mikhail-kold/authGo/internal/common/server/httperr"
 )
 
 type HttpServer struct {
+	Unimplemented
 	app app.Application
 }
 

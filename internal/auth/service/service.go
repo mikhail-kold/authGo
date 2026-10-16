@@ -1,13 +1,13 @@
 package service
 
 import (
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/jwt"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/password"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/repositories"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/app"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/app/http"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/domain/user"
-	"github.com/mmMikhailS/DeepBoard/internal/common/metrics"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/jwt"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/password"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/repositories"
+	"github.com/mikhail-kold/authGo/internal/auth/app"
+	"github.com/mikhail-kold/authGo/internal/auth/app/http"
+	"github.com/mikhail-kold/authGo/internal/auth/domain/user"
+	"github.com/mikhail-kold/authGo/internal/common/metrics"
 	"github.com/sirupsen/logrus"
 )
 

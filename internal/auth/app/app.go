@@ -1,9 +1,13 @@
 package app
 
-import "github.com/mmMikhailS/DeepBoard/internal/auth/app/http"
+import (
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/jwt"
+	"github.com/mikhail-kold/authGo/internal/auth/app/http"
+)
 
 type Application struct {
-	Http Http
+	Http         Http
+	TokenService jwt.Token
 }
 
 type Http struct {

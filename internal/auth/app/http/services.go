@@ -2,7 +2,7 @@ package http
 
 import (
 	"github.com/google/uuid"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/domain/user"
+	"github.com/mikhail-kold/authGo/internal/auth/domain/user"
 )
 
 type Factory interface {

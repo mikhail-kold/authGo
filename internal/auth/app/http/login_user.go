@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	"github.com/mmMikhailS/DeepBoard/internal/auth/domain/user"
-	"github.com/mmMikhailS/DeepBoard/internal/common/decorator"
-	"github.com/mmMikhailS/DeepBoard/internal/common/errors"
+	"github.com/mikhail-kold/authGo/internal/auth/domain/user"
+	"github.com/mikhail-kold/authGo/internal/common/decorator"
+	"github.com/mikhail-kold/authGo/internal/common/errors"
 	"github.com/sirupsen/logrus"
 )
 

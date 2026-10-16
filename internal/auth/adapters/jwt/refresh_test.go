@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
-	authJwt "github.com/mmMikhailS/DeepBoard/internal/auth/adapters/jwt"
+	authJwt "github.com/mikhail-kold/authGo/internal/auth/adapters/jwt"
 	"github.com/stretchr/testify/assert"
 )
 

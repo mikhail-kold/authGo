@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mmMikhailS/DeepBoard/internal/auth/adapters/password"
+	"github.com/mikhail-kold/authGo/internal/auth/adapters/password"
 	"github.com/stretchr/testify/assert"
 )
 
